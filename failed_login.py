@@ -1,4 +1,3 @@
-from pprint import pprint
 import socket
 import typer
 from splunklib.client import connect
