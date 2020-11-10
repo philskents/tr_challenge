@@ -1,6 +1,6 @@
 # failed_login.py
 
-This tool will return all failed logins to the target search head for the past 7 days.
+This tool will return all failed logins to Splunk Enterprise for the past 7 days.
 
 ## Installation
 
