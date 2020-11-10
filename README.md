@@ -6,7 +6,7 @@ This tool will return all failed logins to the target search head for the past 7
 
 **For safety, install to a python virtual environment**
 
-1. Clone the repository ```git clone ```
+1. Clone the repository ```git clone https://github.com/philskents/tr_challenge.git```
 2. Install the prerequisites ```pip install requirements.txt```
 
 ## Usage
