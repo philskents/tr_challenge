@@ -15,7 +15,11 @@ python failed_login.py [OPTIONS]
 
 Options:
   --host TEXT                     Splunk hostname  [required]
+  
   --port INTEGER                  Splunk REST API port  [default: 8089]
+  
   --username TEXT                 Splunk username  [required]
+  
   --password TEXT                 Splunk password  [required]
+  
   --help			  Display help 
