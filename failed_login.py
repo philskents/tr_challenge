@@ -16,7 +16,7 @@ def display(response):
 def main(host: str = typer.Option(..., prompt=True, help="Splunk hostname"),
         port: int = typer.Option(8089,help="Splunk REST API port"),
         username: str = typer.Option(..., prompt=True, help="Splunk username"),
-        password: str = typer.Option(..., prompt=True, hide_input=True help="Splunk password")):
+        password: str = typer.Option(..., prompt=True, hide_input=True, help="Splunk password")):
 
     search = """search index=_audit action="login attempt" info="failed" earliest=-7d@d | table timestamp user src"""
     service = connect(host=host, port=port, username=username, password=password)
