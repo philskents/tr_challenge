@@ -14,6 +14,7 @@ This tool will return all failed logins to the target search head for the past 7
 python failed_login.py [OPTIONS]
 
 Options:
+  
   --host TEXT                     Splunk hostname  [required]
   
   --port INTEGER                  Splunk REST API port  [default: 8089]
