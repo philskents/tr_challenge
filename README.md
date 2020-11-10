@@ -24,3 +24,5 @@ Options:
   --password TEXT                 Splunk password  [required]
   
   --help			  Display help 
+
+[![asciicast](https://asciinema.org/a/jx8FWcJfdwTFXGrDHo32wZRQ6.svg)](https://asciinema.org/a/jx8FWcJfdwTFXGrDHo32wZRQ6)
